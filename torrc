@@ -4,8 +4,8 @@ ExitPolicy reject *:*
 BridgeRelay 1
 PublishServerDescriptor 0
 
-SOCKSPort 9050
-SOCKSPolicy accept 192.168.1.0/24
+SOCKSPort 0.0.0.0:9050
+#SOCKSPolicy accept 192.168.1.0/24
 
 RunAsDaemon 0
 ControlPort 9051
